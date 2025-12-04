@@ -1,0 +1,45 @@
+feature {
+  name: "Age"
+  type: FLOAT
+}
+feature {
+  name: "Age_bucket"
+  type: INT
+  int_domain {
+    min: 0
+    max: 2
+    is_categorical: true
+  }
+}
+feature {
+  name: "BMI"
+  type: FLOAT
+}
+feature {
+  name: "BloodPressure"
+  type: FLOAT
+}
+feature {
+  name: "DiabetesPedigreeFunction"
+  type: FLOAT
+}
+feature {
+  name: "Glucose"
+  type: FLOAT
+}
+feature {
+  name: "Insulin"
+  type: FLOAT
+}
+feature {
+  name: "Outcome"
+  type: INT
+}
+feature {
+  name: "Pregnancies"
+  type: FLOAT
+}
+feature {
+  name: "SkinThickness"
+  type: FLOAT
+}
